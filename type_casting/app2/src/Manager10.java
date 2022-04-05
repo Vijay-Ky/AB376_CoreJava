@@ -3,11 +3,11 @@ class Manager10
 	static C test()
 	{
 		D d1 = new D();
-		return d1;
+		return (C)d1;
 	}	
 	public static void main(String[] args)
 	{
-		A a1 = test();
+		A a1 = (A)test();
 		System.out.println("done");
 	}
 }

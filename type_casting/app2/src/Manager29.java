@@ -8,8 +8,8 @@ class Manager29
 		System.out.println(a1 instanceof C);
 		System.out.println(a1 instanceof D);
 		//System.out.println(a1 instanceof String);
-		Object s1 = new String();
-		Object s2 = new String();
+		Object s1 = (Object)new String();
+		Object s2 = (Object)new String();
 		System.out.println("----------------------");
 	}
 }
