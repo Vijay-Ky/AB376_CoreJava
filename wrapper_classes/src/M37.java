@@ -10,6 +10,6 @@ public class M37
 		Integer obj =new Integer(20);
 		test(i);
 		//error in case of JDK <= 1.4
-		test(obj);
+		test(obj);//auto-unboxing//obj.intValue();
 	}
 }

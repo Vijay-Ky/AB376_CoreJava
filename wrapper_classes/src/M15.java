@@ -2,6 +2,7 @@ public class M15
 {
 	public static void main(String [] args)
 	{
+		//String s0 = "abc";
 		int i = 10;
 		//converting primitive type to string type
 		String s1 = Integer.toString(i);
@@ -20,8 +21,8 @@ public class M15
 }
 /*1.In all the wrapper classes there is a static toString method that is taking-
   -corresponding primitive as the argument.
-  2.In all the wrapper classes there are two toString methods got overloaded-
-  -One is non static, no arg, object class toString method.
+  2.In all the wrapper classes there are 2 toString methods got overloaded-
+  -One is non static, no arg, 'object class toString method'.
   -Second one is a static, arg toString method.
   3.Char can be converted into string but String cant be converted to char
 

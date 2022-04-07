@@ -2,8 +2,9 @@ public class M45
 {
 	static void test(int x, String...y)
 	{
-		System.out.println(x);
-		System.out.println(y.length);
+		System.out.print(x + " ,");
+		System.out.print(y.length);
+		System.out.println();
 	}
 	public static void main(String [] args)
 	{

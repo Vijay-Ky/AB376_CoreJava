@@ -1,9 +1,11 @@
 public class M1
 {
-	public static void main(String [] args)
+	public static void main(String[] args)
 	{
 		int i = 0;
-		Integer obj = new Integer(i);//boxing
+		//System.out.println(i.getClass().getName());
+		Integer obj = new Integer(0);//boxing
+		System.out.println(obj.getClass().getName());
 		int k = obj.intValue();//un-boxing
 		System.out.println(k);
 		System.out.println("done");
@@ -27,7 +29,7 @@ public class M1
 //other constructor can  taking argument of String type.
 // in character wrapper class only one constructor that is taking one argument that is char type.
 //except in char wrapper class all remining wrapper class there is procedure conversion a string into corrosponding.
-//String can not converting into char.
+//String can not converting into char. there is no way of converting string to char
 //in all wrapper classes there is a method to convert a primitive into string.
 //wrapper class is used for wrapping primitive contant into object.
 	//primitive data type      Wrapper classes 

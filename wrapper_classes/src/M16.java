@@ -9,6 +9,12 @@ public class M16
 		double d1 = Double.parseDouble(s1);
 		long d2 = Long.parseLong(s1);
 		boolean b2 = Boolean.parseBoolean(s1);
+		
+		/*
+		double dd = 20.0;
+		Double d0 = new Double(dd);
+		double d11 = d0.DoubleValue();//un-boxing
+		*/
 
 		System.out.println(b1);
 		System.out.println(i);

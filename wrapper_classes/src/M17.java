@@ -11,10 +11,10 @@ public class M17
 		System.out.println("------");
 		//we can convert the value 9.8 to float or double-
 		//-but not to byte,short,int,long
-		int i = Integer.parseInt(s1);//NumberFormatException
-		//byte i = Byte.parseByte(s1);//NumberFormatException
-		//short i = Short.parseShort(s1);//NumberFormatException
-		//long i = Long.parseLong(s1);//NumberFormatException
+		//int i = Integer.parseInt(s1);//NumberFormatException
+		byte j = Byte.parseByte(s1);//NumberFormatException
+		short k = Short.parseShort(s1);//NumberFormatException
+		long l = Long.parseLong(s1);//NumberFormatException
 		//System.out.println(i);
 		System.out.println("done");
 	}

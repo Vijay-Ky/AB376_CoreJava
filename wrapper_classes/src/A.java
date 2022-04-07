@@ -3,7 +3,7 @@ class A
 	int i;
 	public String toString()
 	{
-		return ""+ i;
+		return "" + i;//
 	}
 	public static void main(String[] args) 
 	{

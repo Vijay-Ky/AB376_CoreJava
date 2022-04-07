@@ -9,7 +9,7 @@ public class M36
 		int i = 20;
 		Integer obj = new Integer(20);
 		//error in case of JDK <= 1.4
-		test(i);
+		test(i);//new Integer(20);
 		test(obj);
 	}
 }

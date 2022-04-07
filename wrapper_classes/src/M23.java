@@ -5,7 +5,7 @@ public class M23
 		int i = 10;
 		//JDK 1.5 compiles successfully
 		//JDK 1.4 compilation fails
-		int j = new Integer(10);//unboxing
+		int j = new Integer(i);//unboxing
 		System.out.println("done");
 	}
 }

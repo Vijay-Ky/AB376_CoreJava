@@ -5,7 +5,7 @@ public class M33
 		//error in case of JDK <= 1.4 int cannot be converted to Integer
 		//success in case of JDK >= 1.5 auto boxing
 		//return i.intValue();//CTE int cant be dereferenced
-		return i;
+		return i;//new Integer(i);///autoboxing
 	}
 	public static void main(String [] args)
 	{

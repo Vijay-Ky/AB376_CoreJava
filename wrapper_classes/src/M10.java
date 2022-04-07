@@ -8,6 +8,8 @@ public class M10
 		Integer obj2 = new Integer(s1);//s1 value boxing
 		int m = obj1.intValue();
 		int n = obj2.intValue();
+		System.out.println(m);
+		System.out.println(n);
 		System.out.println("done");
 	}
 }
