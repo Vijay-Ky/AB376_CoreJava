@@ -1,4 +1,4 @@
 interface N
 { 
-	int i;
+	int i = 0;
 }

@@ -4,12 +4,10 @@ class H
 	H()
 	{
 		i = 10;
-		//i = 20;
 	}
 	H(double j)
 	{
 		i = 20;	
-		//i = 40;
 	}
 	public static void main(String[] args)
 	{

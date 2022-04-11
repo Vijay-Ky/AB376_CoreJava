@@ -1,6 +1,6 @@
 class F
 {
-	public static void main(String[]args)
+	public static void main(String[] args)
 	{
 		F f1 = new F();
 		final F f2 = new F();

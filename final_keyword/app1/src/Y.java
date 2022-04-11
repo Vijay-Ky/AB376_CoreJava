@@ -1,22 +1,21 @@
 class Y
 { 
-	final int i;
+	final String fs;
 	Y()
 	{
-		this.i = 10;
+		this.fs = "abcabc";
 	}
-	Y(final int i)
+	Y(final String fs)
 	{
-		//i = 89;
-		this.i = 20;
-		//this.i = 40;
+		//this.fs = "xyz";
+		fs = "xyz";
 	}
 
 	public static void main(String[] args)
 	{
-		Y y1 = new Y(); 
-		Y y2 = new Y(10);
-		System.out.println(y1.i);
-		System.out.println(y2.i);
+		Y y2 = new Y();
+		Y y3 = new Y("abc");
+		System.out.println(y2.fs);
+		System.out.println(y3.fs);
 	}
 }
