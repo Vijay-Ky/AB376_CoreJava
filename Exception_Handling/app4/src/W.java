@@ -9,8 +9,6 @@ public class W
 		try
 		{
 			return;
-			//System.out.println(1);
-			//return;
 		}
 	    catch(ArithmeticException ex)
 		{	

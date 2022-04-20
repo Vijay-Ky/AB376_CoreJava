@@ -1,9 +1,7 @@
-package app3;
-
 public class A {
 	public static void main(String[] args) {
-		int[][] arr = new int[4][4];
-		
+		int[][][] arr = new int[4][4][4];
+		/*
 		arr[0][0] = 10;
 		arr[0][1] = 20;                                                           
 		arr[0][2] = 30;
@@ -25,5 +23,6 @@ public class A {
 		arr[3][3] = 160;
 		
 		System.out.println(arr[3][2]);	
+		*/
 	}
 }

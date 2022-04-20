@@ -1,5 +1,3 @@
-package app2;
-
 import java.util.Arrays;
 
 public class A {

@@ -1,5 +1,3 @@
-package app1;
-
 public class H {
 
 	public static void main(String[] args) {

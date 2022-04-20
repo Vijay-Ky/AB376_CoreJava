@@ -1,5 +1,3 @@
-package app1;
-
 public class K {
 	public static void main(String[] args) {
 		StringBuffer sb = new StringBuffer("hellotoall");
