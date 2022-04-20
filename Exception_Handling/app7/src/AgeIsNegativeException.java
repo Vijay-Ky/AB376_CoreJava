@@ -1,6 +1,7 @@
 //Developing our own Exception class
-public class AgeIsNegativeException extends ArithmeticException  
+public class AgeIsNegativeException extends ArithmeticException
 {
+	
 	public AgeIsNegativeException(String msg)
 	{
 		super(msg);//supplying msg to super class constructor

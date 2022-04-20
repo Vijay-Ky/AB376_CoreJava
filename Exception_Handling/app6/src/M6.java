@@ -1,6 +1,6 @@
 class M6
 {
-	public static void main(String[] args) throws ArithmeticException
+	public static void main(String[] args) 
 	{
 		test1();
 		System.out.println("done");

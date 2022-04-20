@@ -10,7 +10,6 @@ class K
 		{
 			return 100;
 		}
-		
 	}
 }
 

@@ -19,3 +19,4 @@ class M7
 }
 //all checked exceptions are sub-class to Exception
 //we can straightaway go for Exception because all are sub-class to Exeption
+//Throwable and Exception are comes under semi-checked. why??

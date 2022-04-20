@@ -4,7 +4,7 @@ class M13
 	{
 		try
 		{
-			//System.out.println(1000);//this statement doesnt require a try catch	
+			//this statement doesnt require a try catch	
 		}
 		catch (ArithmeticException ex)
 		{

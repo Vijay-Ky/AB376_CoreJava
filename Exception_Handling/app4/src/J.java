@@ -1,6 +1,6 @@
 /*
 Error and RuntimeException both comes under unchecked. remaining all are checked.
-Throwable and Exception are comes under semi-checked.
+Throwable and Exception are comes under semi-checked. why??
 
 */
 public class J

@@ -16,7 +16,7 @@ disrupts the normal flow of program exection. it is an object that thrown at run
 2.rised exception object should be handled to succesfully continue.
 
 - two types of exception
-1.checked exception(Exception)
+1.checked exception(Exception)(checked at compile time)
 2.unchecked exception(RuntimeException and Error is considered as unchecked exception)
 
 1. (checked) exception that are checked at compile-time

@@ -4,14 +4,10 @@ class M
 	{
 
 		System.out.println("main begin");
-		int i = 10 / 0;
 		try
 		{
+			int i = 10 / 0;
 			System.out.println("from try");
-		}
-		catch (ArithmeticException ex)
-		{
-			System.out.println("from catch");
 		}
 		finally
 		{
