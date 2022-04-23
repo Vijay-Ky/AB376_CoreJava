@@ -3,7 +3,7 @@ class G
 	int i;
 	public String toString()
 	{
-		return "its a type object with i value as :" + i;
+		return "its a type object G with i value as: " + i;
 	}
 }
 class M5

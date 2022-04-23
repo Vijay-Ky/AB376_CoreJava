@@ -8,7 +8,7 @@ class B
 	}
 	public String toString()
 	{
-		return i + ":" + j;
+		return this.i + ":" + this.j;
 	}
 }
 class M6

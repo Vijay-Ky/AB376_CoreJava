@@ -19,8 +19,8 @@ class M15
 	{
 		D d1 = new D(90, 10);	
 		D d2 = new D(90, 1);
-		System.out.println(d1 == d2);
-		System.out.println(d1.equals(d2));
-		System.out.println(d1.i == d2.i && d1.j == d2.j);
+		System.out.println(d1 == d2);//false
+		System.out.println(d1.equals(d2));//false
+		System.out.println(d1.i == d2.i && d1.j == d2.j);//false
 	}
 }
