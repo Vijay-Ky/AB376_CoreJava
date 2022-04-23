@@ -3,6 +3,7 @@ class B
 	protected void finalize() throws Throwable
 	{
 		System.out.println("from finalize");
+		
 	}
 }
 class M2 
