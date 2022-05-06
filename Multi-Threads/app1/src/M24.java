@@ -5,17 +5,21 @@ public class M24 {
 		for(int i = 1; i <= 10; i++)
 		{
 			System.out.println(i);
+				Util.sleep(2000);
+			/*
+			
 			try
 			{
 				//sleep method is a static method
 				//sleep method is a overloaded method.
 				//milliseconds and nano seconds
-				Thread.sleep(2000, 500);
+				Util.sleep(2000);
 			}
 			catch(InterruptedException ex)
 			{
 				ex.printStackTrace();
 			}
+			*/
 		}
 		System.out.println("main end");
 	}

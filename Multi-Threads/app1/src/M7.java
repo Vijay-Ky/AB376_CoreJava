@@ -1,4 +1,3 @@
-package app1;
 class G extends Thread
 {
 	@Override

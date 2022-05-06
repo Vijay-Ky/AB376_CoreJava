@@ -1,5 +1,3 @@
-package app1;
-
 public class M13 {
 
 	public static void main(String[] args) {

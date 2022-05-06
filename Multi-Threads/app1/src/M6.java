@@ -1,10 +1,8 @@
-package app1;
-
 class F implements Runnable
 {
 	@Override
 	public void run() {
-		for(int i = 1; i <= 100; i++)
+		for(int i = 1; i <= 10; i++)
 		{
 			System.out.println(Thread.currentThread().getName() + ":" + i);
 		}
@@ -24,7 +22,7 @@ public class M6 {
 		//we can create multiple threads by using same Runnable object.
 		t2.start();
 		
-		for(int i = 501; i <= 600; i++)
+		for(int i = 100; i <= 110; i++)
 		{
 			System.out.println(Thread.currentThread().getName() + ":" + i);
 		}

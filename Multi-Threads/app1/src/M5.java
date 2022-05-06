@@ -1,4 +1,3 @@
-package app1;
 //E is a sub class to Thread from Thread class several methods are inheriting.
 //overriding run() method.
 class E extends Thread

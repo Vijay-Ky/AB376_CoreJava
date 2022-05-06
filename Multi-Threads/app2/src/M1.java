@@ -1,6 +1,6 @@
 class Shared
 {
-	void test1()
+	synchronized void test1()
 	{
 		Thread t1 = Thread.currentThread();
 		for(int i = 1; i <= 50; i++)
@@ -9,7 +9,7 @@ class Shared
 			//modifications for the attribute
 		}
 	}
-	void test2()
+	synchronized void test2()
 	{
 		Thread t1 = Thread.currentThread();
 		for(int i = 1; i <= 100; i++)
@@ -44,14 +44,29 @@ class Thread2 extends Thread
 		s1.test1();
 	}
 }
+class Thread3 extends Thread
+{
+	Shared s1;
+	Thread3(Shared s1)
+	{
+		this.s1 = s1;
+	}
+	@Override
+	public void run() {
+		//s1 is a shared type
+		s1.test1();
+	}
+}
 public class M1 {
 
-	public static void main(String[] args) {
-		Shared s1 = new Shared();
-		Shared s2 = new Shared();
+	public static void main(String[] args)//default Thread
+	{
+		Shared s1 = new Shared();//-object
+		Shared s2 = new Shared();//-object
 		
-		Thread1 t1 = new Thread1(s1);
-		Thread2 t2 = new Thread2(s1);
+		Thread1 t1 = new Thread1(s1);//Thread - 0
+		Thread2 t2 = new Thread2(s1);//Thread - 1
+		Thread3 t3 = new Thread3(s1);//Thread - 2
 		//Thread2 t2 = new Thread2(s1);
 		
 		//three threads accessing one object
@@ -59,10 +74,11 @@ public class M1 {
 		
 		t1.start();
 		t2.start();
+		t3.start();
 		//s1.test1();
 		
 		s1.test1();
-		//s2.test2();
+		//s2.test1();
 	}
 }
 /* 
@@ -77,7 +93,7 @@ public class M1 {
    one object by multiple threads.
    that is why we use synchronization to avoid access on the same resource 
    by multiple threads.
-   we can achieve synchronization by synchronize keyword.
+   we can achieve synchronization by synchronized keyword.
 * synchronized keyword avoiding multiple threads accessing one object simultaneously.
 
 * same shared object more than one synchronized method cannot execute simultaneously.

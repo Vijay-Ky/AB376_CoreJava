@@ -1,4 +1,3 @@
-package app1;
 //second approach of creating a thread(best)
 //Runnable is an interface which is available in java.lang package.
   //it contains only one single method i,e run().

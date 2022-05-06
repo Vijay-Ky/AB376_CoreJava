@@ -1,4 +1,3 @@
-package app1;
 class J extends Thread
 {
 	public void run() {

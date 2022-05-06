@@ -1,5 +1,3 @@
-package app1;
-
 class H implements Runnable
 {
 	@Override
@@ -17,14 +15,14 @@ public class M8 {
 		Thread t1 = new Thread(h1);
 		
 		//multithreaded o/p
-		//t1.start();
+		t1.start();
 		
 		//sequential o/p
 		//h1.run();
 		
 		//sequential o/p
 		//Thread class run method internally calling to the H class run method.
-		t1.run();
+		//t1.run();
 		for(int i = 21; i <= 30; i++)
 		{
 			System.out.println(Thread.currentThread().getName() + ":" + i);

@@ -1,8 +1,7 @@
-package app1;
 //first approach of creating a thread
 class A extends Thread
 {
-	@Override
+	@Override//Annotation
 	public void run() {
 		for(int i = 1; i <= 100; i++)
 		{
@@ -14,7 +13,7 @@ class B extends Thread
 {
 	@Override
 	public void run() {
-		for(int i = 200; i <= 300; i++)
+		for(int i = 1; i <= 100; i++)
 		{
 			System.out.println("second thread: " + i);
 		}
@@ -59,7 +58,7 @@ public class M3 {
 		b1.start();
 		//after this point main thread continues to execute remaining portion of the main thread.
 		 // by the time two child threads also went into execute corresponding run methods.
-		for(int i = 300; i <= 400; i++)
+		for(int i = 1; i <= 100; i++)
 		{
 			System.out.println("main thread: " + i);
 		}
