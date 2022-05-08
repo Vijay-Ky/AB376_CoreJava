@@ -15,7 +15,7 @@ public class Manager40 {
 
 		while(lit.hasNext())
 		{
-			Object obj=lit.next();
+			Object obj = lit.next();
 			if(obj.equals(91))
 			{
 				lit.set("abc");//replacement of object

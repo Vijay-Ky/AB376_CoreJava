@@ -10,7 +10,7 @@ public static void main(String[] args) {
 		list1.add(2);
 		list1.add(1);
 		list1.add(3);
-		ArrayList list2=new ArrayList();
+		ArrayList list2 = new ArrayList();
 		list2.add(5);
 		list2.add(4);
 		list2.add(2);

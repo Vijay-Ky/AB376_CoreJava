@@ -8,8 +8,13 @@ public class Manager20 {
 		list.add("ABC");
 		list.add("abc");
 		list.add("ABc");
+		list.add("1");
 		list.add("123");
+		list.add("12");
 		list.add("90.6");
+		list.add("99.6");
+		list.add("9.6");
+
 		System.out.println(list);
 		Collections.sort(list);//all are same type obj
 		System.out.println(list);

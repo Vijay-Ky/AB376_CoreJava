@@ -6,10 +6,10 @@ public class M1
 	public static void main(String args[])
 	{
 		ArrayList list = new ArrayList();
-		list.add(90);
+		list.add((Integer)90);
 		list.add("abc");
-		list.add('a');
-		list.add(true);
+		list.add((Character)'a');
+		list.add((Boolean)true);
 		list.add(48);
 		System.out.println(list);
 	}
@@ -20,4 +20,5 @@ public class M1
 .in arraylist class tostring method from object class got overrided.
 */
 
-
+//int -> Integer
+//boolean -> Boolean

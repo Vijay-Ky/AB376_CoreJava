@@ -7,7 +7,7 @@ class B{
 	}
 	public String toString()//user defined toString method
 	{
-		return Integer.toString(i);
+		return Integer.toString(i);//"" + i;
 	}
 }
 public class Manager22 {
@@ -19,5 +19,7 @@ public static void main(String[] args) {
 	list.add(new B(2));
 	list.add(20);
 	System.out.println(list);
+
+	
 }
 }

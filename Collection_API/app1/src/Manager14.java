@@ -12,7 +12,7 @@ public class Manager14 extends ArrayList {
 		list.add(20);
 		list.add(8);
 		System.out.println(list);
-		list.removeRange(2, 6);//remove range method is protected method..we can not use straight away, us with class 
+		list.removeRange(2, 6);//remove range method is protected method..we can not use straight away, use with subclass 
 		System.out.println(list);
 	}
 
